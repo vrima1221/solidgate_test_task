@@ -72,3 +72,9 @@
 .fade_in {
   animation: fadeInDown 120ms forwards;
 }
+
+@media (hover: hover) and (pointer: fine) {
+  .container:hover {
+    background-color: #029C3F;
+  }
+}
