@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  
+  padding: 16px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: right;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    padding: 8px 64px;
+    max-width: 1000px;
+    justify-content: flex-end;
+  }
+
+  .title, .back_button {
+    display: none;
+  }
+}

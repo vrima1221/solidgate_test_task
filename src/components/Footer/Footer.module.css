@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  padding: 32px 0 40px;
+  
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+
+  color: var(--text-secondary);
+}
+
+.solid {
+  width: 36px;
+  height: auto;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    padding: 56px 0 24px;
+  }
+}

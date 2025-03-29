@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+
+  width: 100%;
+
+  padding: 12px 16px 16px;
+  border-radius: 8px;
+
+  background-color: #F7F7F9;
+}
+
+.order_info {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.order_description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.goods {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.goods_name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.goods_description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #797E8B;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+}
+
+.price_total {
+  display: none;
+}
+
+.price_slash {
+  font-weight: 500;
+}
+
+.price_month {
+  font-size: 14px;
+}
+
+@media (min-width: 1000px) {
+  .price_total {
+    display: inline;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .price_slash, .price_month {
+    display: none;
+  }
+}

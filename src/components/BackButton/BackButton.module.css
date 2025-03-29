@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+
+  transition: transform 80ms ease-in;
+
+  &:active {
+    transform: translateY(4px);
+  }
+}
+
+.icon {
+  width: 40px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+}

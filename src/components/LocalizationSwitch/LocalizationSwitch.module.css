@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  aspect-ratio: 1/ 1;
+  width: 40px;
+  height: auto;
+
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+
+  color: #B0B4BE;
+
+  cursor: pointer;
+}
+
+.is_active {
+  color: var(--text-primary);
+}
+
+.desktop {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .mobile {
+    display: none;
+  }
+  
+  .desktop {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
