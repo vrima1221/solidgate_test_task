@@ -26,7 +26,7 @@ const schema = yup.object({
     .required("Exp. date is required"),
   cvv: yup
     .string()
-    .matches(/^\d{3}$/, "CVV must be 3 digits")
+    .matches(/^\d{3}$/, "CVC must be 3 digits")
     .required("CVC is required"),
 });
 
