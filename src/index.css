@@ -29,7 +29,9 @@ button, input {
   outline: none;
 
   font-family: "Inter", sans-serif;
+}
 
+.button {
   cursor: pointer;
 }
 
